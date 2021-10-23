@@ -1,0 +1,250 @@
+.mf-services-2.service-summary .btn-service-2 {
+    position: relative;
+}
+
+.mf-services-2.service-summary > a {
+    font-weight: 500;
+    color: #393939;
+}
+
+.mf-services-2.service-summary .btn-service-2 i {
+    color: #393939;
+    font-size: 18px;
+    opacity: 0;
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+.service-inner:hover .mf-services-2.service-summary .btn-service-2 {
+    padding-left: 23px;
+}
+.mf-services-2.service-summary > a:hover {
+    color: #f7c02d;
+}
+
+.service-inner:hover .mf-services-2.service-summary .btn-service-2 i {
+    left: 0;
+    opacity: 1;
+    color: #f7c02d;
+}
+
+.rev-midtext{
+    color: #ffffff;
+}
+
+.page-header.has-image .breadcrumbs {
+    color: #dee53d;
+}
+
+.page-header.has-image h1 {
+    /* color: #dee53d; */
+    color: #ffffff;
+    margin: 30px 0 0 0;
+}
+.page-header h1 {
+    z-index: 0;
+    font-size: 50px;
+}
+
+.contact-info.address div, 
+.contact-info.phone div{
+    margin-bottom: 10px;
+}
+
+
+.topbar .induscity-social-links-widget a:hover {
+    color: #dee53d;
+}
+
+.rev-btn1{
+    background: #dee53d;
+}
+.rev-btn2{
+    border-color: #6b8c21;
+}
+
+.mf-btn{
+    background: #dee53d;
+}
+
+.main-color {
+    color: #dee53d;
+}
+
+.induscity-office-location-widget .topbar-office li i {
+    color: #dee53d;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.footer-widgets .widget-title:after {
+    background-color: #6b8c21;
+}
+
+.footer-widgets .footer-widget-contact .detail i {
+    color: #dee53d;
+}
+
+.footer-widgets ul li:hover > a {
+    color: #dee53d;
+}
+
+.site-footer .footer-copyright a {
+    color: #6b8c21;
+}
+
+.footer-social a:hover {
+    border-color: #6b8c21;
+    background-color: #6b8c21;
+}
+
+.mf-section-title h2:after {
+    background-color: #6b8c21;
+}
+
+
+.mf-contact-box .contact-info i {
+    color: #6b8c21;
+}
+
+.aboutcoimg img{
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+ .service-2 .mf-services-2 .service-thumbnail img{
+    width:100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.action-strip-1 {
+   background: #f5f5f5 !important;
+}
+.action-strip-1 h2{
+    color: #393939;
+}
+
+.about-company {
+    background: none;
+    background-size: cover;
+}
+
+.service-1{
+    background: #f5f5f5;
+
+}
+
+
+
+
+
+.footer-widgets .textwidget img{
+    width: 197px;
+    height: 64;
+
+}
+
+.partener-1 .partner-item img{
+    width: 106px;
+    height: 45px;
+    object-fit: cover;
+
+}
+
+.mf-team .team-member {
+    text-align: left;
+}
+
+.mf-team .team-member h4 {
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mf-team .team-member {
+        text-align: center;
+    }
+
+    .service-1.services .service-inner{
+        margin-bottom: 70px;
+    }
+}
+
+.projleftimg img {
+    display: block;
+}
+
+.mf-progress-bar-light {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.5)), url(../assets/maksym-kaharlytskyi-2CjszXWGN9k-unsplash.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.projects-1 .projleftimg {
+    height: 460px;
+    background:none;
+}
+
+.about-company{
+    background: url(../assets/h2-bg-1.jpg) center center no-repeat;
+        background-size: auto;
+    background-size: cover;
+
+}
+
+/* .header-sticky.header-transparent.header-v3 .site-header.minimized {
+    padding: 0;
+    background-color: #040404;
+} */
+
+/* .header-transparent.header-v3 .site-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+} */
+
+.changed-header.header-transparent .site-header {
+    background-color: #0b0b0b; 
+    padding-bottom: 10px;
+    /* transition: 0.5s; */
+    
+    /* background-color: rgba(255, 255, 255, 0.2); */
+
+}
+.header-transparent .site-header .logo{
+    width: 197px;
+}
+/* .changed-header.header-transparent .site-header .logo{
+    width: 197px;
+} */
+.changed-header.header-v3 .main-nav ul.menu > li > a {
+    color: #ffffff;
+}
+
+.whychooseus-5 {
+    background: #f2f2f2;
+    padding: 80px 0;
+}
+
+.about-team .mf-team .team-member {
+    text-align: center;
+}
+
+.pageteam.appli-team .team-member{
+    margin-bottom: 40px;
+}
+
+/* .about.header-transparent .site-header .site-menu {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* padding-right: 30px;
+} */
