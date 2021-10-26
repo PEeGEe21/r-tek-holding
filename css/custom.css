@@ -317,6 +317,10 @@ object-fit: cover;
 }
 
 
+.mf-team .team-member .team-header {
+    width: 100%;
+}
+
 
 .requets-quote-3 .form-light .mf-form-4 h3 {
     margin-bottom: 30px;
