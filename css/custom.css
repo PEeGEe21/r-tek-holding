@@ -311,8 +311,9 @@ object-fit: cover;
 
 
 .project-inner .project-thumbnail img {
-    height: 415px;
+    height: 215px;
     width: 100%;
+    object-fit: cover;
 }
 
 
