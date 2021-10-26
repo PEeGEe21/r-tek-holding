@@ -198,16 +198,16 @@
                     margin: 0
                 },
                 600: {
-                    items: 2,
+                    items: 1,
                 },
                 800: {
-                    items: 3
+                    items: 2
                 },
                 1024: {
-                    items: 3
+                    items: 2
                 },
                 1200: {
-                    items: 4
+                    items: 2
                 }
             }
         });
@@ -286,16 +286,16 @@
                     items: 2
                 },
                 600: {
-                    items: 3
+                    items: 2
                 },
                 800: {
-                    items: 4
+                    items: 2
                 },
                 1024: {
-                    items: 5
+                    items: 2
                 },
                 1200: {
-                    items: 5
+                    items: 2
                 }
             }
         });

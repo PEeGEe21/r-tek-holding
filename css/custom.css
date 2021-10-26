@@ -1,3 +1,8 @@
+body{
+    /* overflow-x: hidden; */
+    /* background-color: red; */
+}
+
 .mf-services-2.service-summary .btn-service-2 {
     position: relative;
 }
@@ -114,10 +119,16 @@
     color: #6b8c21;
 }
 
-.aboutcoimg img{
+/* .aboutcoimg img{
     width: 370px;
     height: 300px;
     object-fit: cover;
+} */
+
+.aboutcoimg img {
+    width: 370px;
+    height: 300px;
+    object-fit: contain;
 }
 
 
@@ -155,9 +166,32 @@
 }
 
 .partener-1 .partner-item img{
-    width: 106px;
-    height: 45px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
+        /* display: block;
+        left: 50%;
+        max-height: 70px;
+        max-width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transform-origin: center; */
+    
+}
+
+.action-strip-1.services-change{
+    background: #ffffff !important;
+}
+
+.abouttop img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.service-inner .service-thumbnail img {
+    width: 100%;
 
 }
 
@@ -168,7 +202,9 @@
 .mf-team .team-member h4 {
     margin-bottom: 10px;
 }
-
+.requets-quote-3 .form-light{
+    padding: 10px 60px 10px;
+}
 
 @media only screen and (max-width: 768px) {
     .mf-team .team-member {
@@ -177,6 +213,10 @@
 
     .service-1.services .service-inner{
         margin-bottom: 70px;
+    }
+
+    .requets-quote-3 .form-light{
+        padding: 0px;
     }
 }
 
@@ -243,11 +283,42 @@
 .pageteam.appli-team .team-member{
     margin-bottom: 40px;
 }
+.pageteam.appli-team .team-member .team-header img {
+        height: 245px;
+        width: 100%;
+object-fit: cover;    
+}
 
-
+.service-1.services{
+    background: #ffffff;
+}
 .dtlbgimg img{
     width: 100%;
     object-fit: contain;
+}
+
+
+.wpcf7-form .mf-form-2 textarea {
+    height: 270px;
+}
+
+.owl-nav .owl-next {
+    right: -50px;
+}
+.owl-nav .owl-prev {
+    left: -50px;
+}
+
+
+.project-inner .project-thumbnail img {
+    height: 415px;
+    width: 100%;
+}
+
+
+
+.requets-quote-3 .form-light .mf-form-4 h3 {
+    margin-bottom: 30px;
 }
 
 /* .about.header-transparent .site-header .site-menu {

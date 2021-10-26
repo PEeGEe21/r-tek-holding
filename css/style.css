@@ -10608,7 +10608,8 @@
 	}
 	
 	.requets-quote-3 {
-	    background: url(../images/bg/hp3-quote-bg.jpg) center center no-repeat;
+	    /* background: url(../images/bg/hp3-quote-bg.jpg) center center no-repeat; */
+	    background: #f5f5f5 !important;
 	    padding: 90px 0;
 	    background-size: cover;
 	}
